@@ -1,16 +1,32 @@
 <html>
     <head>
         <title>Kazu's ToDo_List</title>
+        <link rel="stylesheet" href="index.css" />
     </head>
     <body>
         <h1><b>Todo_list</b></h1>
         <ul>
-            <li><input type = "checkbox">finish my todo_list</li>
-            <li><input type = "checkbox">eat dinner</li>
-            <li><input type = "checkbox">Drink water</li>
-            <li><input type = "checkbox">play games</li>
+            <li>
+            <input type = "checkbox"><a href ="show.html"> Finish My Todo_list</a>
+            <span class ="pomodoro-time"> 3 Pomodoros</span>
+            </li>
+            <li>
+            <input type = "checkbox">
+            <a href ="show.html"> Eat Dinner </a>
+            <span class ="pomodoro-time">2 Pomodoros</span>
+            </li>
+            <li>
+            <input type = "checkbox">
+            <a href ="show.html"> Drink Water </a>
+            <span class ="pomodoro-time"> 2 Pomodoros</span>
+            </li>
+            <li>
+            <input type = "checkbox">
+            <a href ="show.html"> Play Games</a>
+            <span class ="pomodoro-time">1 Pomodoros</span>
+            </li>
         </ul>
       <input type ="text" placeholder = "add a now todo">    <input type ="number" step = "1" placeholder = "add Pomodoros">
-      <input type ="submit" value = Add to do>
+      <input id ="add-new-todo-button" type ="submit" value = "Add to do">
     </body>
 </html>
