@@ -41,3 +41,7 @@ html {
     background-color:#3498D8;
     color:#ECF0F1;
 }
+
+.completed-todo{
+    text-decoration: line-through;
+}

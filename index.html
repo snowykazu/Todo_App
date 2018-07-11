@@ -2,6 +2,8 @@
     <head>
         <title>Kazu's ToDo_List</title>
         <link rel="stylesheet" href="index.css" />
+            <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"> </script>
+        <script type="text/javascript" src="index.js"> </script>
     </head>
     <body>
         <h1><b>Todo_list</b></h1>
@@ -25,8 +27,13 @@
             <a href ="show.html"> Play Games</a>
             <span class ="pomodoro-time">1 Pomodoros</span>
             </li>
+            
+        
         </ul>
-      <input type ="text" placeholder = "add a now todo">    <input type ="number" step = "1" placeholder = "add Pomodoros">
-      <input id ="add-new-todo-button" type ="submit" value = "Add to do">
+        <div id = "to-do-block">
+      <input  class= "text-input" type = "text" id= "new-todo" placeholder = "add a now todo">   
+      <input  class= "text-input" type ="number" id= "new-number" placeholder = "add Pomodoros">
+      <input id ="add-new-todo-button" type ="submit" value = "Add todo">
+      </div>
     </body>
 </html>
